@@ -1,0 +1,74 @@
+.slideshow {
+	display: block;
+	position: relative;
+	z-index: 0;
+}
+
+.slideshow-images {
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+.slideshow-images img {
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+
+.slideshow-thumbnails {
+	overflow: hidden;
+}
+
+/**
+Notes:
+	These are examples of user-defined styles.
+	Customize these classes to your usage of Slideshow.
+*/
+.slideshow {
+	width: 900px;
+	height: 620px;
+	margin: 0 auto;
+/* 	background: url("$rel#back.png$") no-repeat scroll 0 0 transparent; */
+	background: no-repeat scroll 0 0 transparent;
+}
+
+.slideshow a img {
+	border: 0;
+}
+/**
+HTML:
+	<div class="slideshow-images">
+		<img />
+		<img />
+	</div>
+	
+Notes:
+	The images div is where the slides are shown.
+	Customize the visible / prev / next classes to effect the slideshow transitions: fading, wiping, etc.
+*/
+.slideshow-images {
+	width: 900px;
+	height: 620px;
+	left: 0px;
+	top: 0px;
+}
+
+.slideshow-images-visible {
+	opacity: 1;
+}
+
+.slideshow-images-prev {
+	opacity: 0;
+}
+
+.slideshow-images-next {
+	opacity: 0;
+}
+
+.slideshow-images img {
+	float: left;
+	left: 0;
+	top: 0;
+	position: static;
+}
