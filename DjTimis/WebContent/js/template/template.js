@@ -99,7 +99,7 @@
 //				alert("hideLoader");
 			}
 			var hash = window.location.hash.substr(1);
-			if (hash == "index"){
+			if (hash == "index" || hash == "multimedia"){
 				prepareSlideShow();
 			}else{
 				e.preventDefault();
