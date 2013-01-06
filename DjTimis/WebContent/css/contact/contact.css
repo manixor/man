@@ -1,0 +1,141 @@
+/*
+.myBody.contact{
+	border:solid;
+		border-width:2px;
+		border-color:red;
+}
+*/
+dl, dt, iframe, a, article, span, label, h3{
+    background: transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+    vertical-align: top; 
+}
+article{display:block}
+.grid_8 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+	width:620px;
+}
+h3 {
+	font-size:25px; 
+	line-height:2em; 
+	margin:0 0 9px 0; 
+	color:#93ceee;
+}
+h3 strong {color:#fff}
+
+/***** Contact form *****/
+#contact-form {
+	position:relative;
+	vertical-align:top;
+	width:100%;
+	z-index:1;
+}
+
+#contact-form fieldset {
+	border:none;
+	padding:0;
+	width:100%;
+	overflow:hidden;
+}			
+#contact-form label {display:block; min-height:40px; overflow:hidden}
+			
+#contact-form input {
+	width:479px;
+	padding:6px 12px;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:1.25em;
+	color:#a1a1a1; 
+	border:1px solid #333333;
+	background:none;
+	outline:none;
+}
+#contact-form .area .error { float:none}
+#contact-form textarea {
+	height:184px;
+	margin:0;
+	width:479px;
+	padding:6px 12px;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:1.25em;
+	color:#a1a1a1; 
+	border:1px solid #333333;
+	background:none;
+	overflow:auto;
+	outline:none;
+}
+#contact-form a {cursor:pointer}
+.name-input {
+	display:block;
+	float:left;
+	width:75px;
+	padding:5px 0 0 1px;
+}
+.link-form {text-align:right;padding:8px 20px 0 0}
+.link-margin {margin-right:20px}
+
+.link{text-decoration:none}
+.link:hover {text-decoration:underline}
+
+a {color:#93ceee; outline:none}
+.buttons a:hover {cursor:pointer}
+a:hover {text-decoration:none}
+.list-4 dt {padding-bottom:10px}
+.list-4 dd a {margin-left:20px}
+dl span {float:left; width:80px}
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.p2 {margin-bottom:15px}
+
+.padding-grid-1 {padding: 0 0 0 28px}
+.padding-grid-3 {padding: 0 0 0 19px}
+.fleft {float:left}
+.style-img-2 {border:1px solid #333333; padding:3px}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
