@@ -19,7 +19,7 @@
 			var $sub_menu = $elem.find('.sdt_box');
 			if($sub_menu.length){
 				var left = '-170px';  /*diff on left - open only on ;eft*/
-				if($elem.parent().children().length == $elem.index()+3) /*3 - multimedia*/
+				if($elem.parent().children().length == $elem.index()+3) /*3 - galerie_foto*/
 					left = '-170px';
 				$sub_menu.show().animate({'left':left,'top':'0px'},200);
 			}	
@@ -99,7 +99,7 @@
 //				alert("hideLoader");
 			}
 			var hash = window.location.hash.substr(1);
-			if (hash == "index" || hash == "multimedia"){
+			if (hash == "index" || hash == "galerie_foto" || hash == "galerie_video" || hash == "contact"){
 				prepareSlideShow();
 			}else{
 				e.preventDefault();

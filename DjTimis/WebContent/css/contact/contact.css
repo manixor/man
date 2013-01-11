@@ -1,10 +1,12 @@
-/*
+
 .myBody.contact{
-	border:solid;
-		border-width:2px;
-		border-color:red;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+	color:#a1a1a1;
+	min-width:960px;
+	background:#000;
 }
-*/
+
 dl, dt, iframe, a, article, span, label, h3{
     background: transparent;
     border: 0 none;
