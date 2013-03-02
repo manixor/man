@@ -1,7 +1,24 @@
-- Photo and video slideshow
-- bug index.html
+- in primul rand fundalul sa fie negru ca la djtimis.ro
+- ti-am atasat niste poze care pot fi puse la meniu
+- iti atasez si cum as vrea sa fie pachetele,sa scoatem ce e acum si sa grupam cate 2 una langa alta 
+- sa aliniezi afisarea de sub meniuri sa fie la aceeeasi dimensiune cu meniul
+- sa delimitezi oarecum cumva in chenare partea de meniuri,si restul.
+- la contact sa pui pe langa ce ai pus urmatoarele optiuni pe care le poate bifa clientul: 
+
+                     Tip eveniment:  nunta,botez,banchet,aniversare,private party,conferinta,lansare de produse
+                     Nr de persoane: pana in 50,intre 50 si 100,intre 150 si 300,peste 300
+                     Optionale : Pachet live,pachet lumini,masina fum,masina fum greu,masina balonase,iluminat arhitectural
+                     
+Si sa mai fie o casuta sau un mini-calendar pentru ca,clientul sa-mi scrie si data evenimentului.
+Tot la contact sa faci ca google map sa arate adresa liceului auto.
+Deasemenea sa pui like de facebook....etc si deasemenea pe pagina de contact un numarator de intrai pe site.
+Mai ar trebui facut un mail de contact care sa fie contact@djtimis.com
+La servicii textul iti revine in totalitate tie sa-l compui fiindca eu daca as incerca m-as apropia prea mult de continutul de pe siteul meu asa ca sunt curios cum vei formula :) 
+Eu zic ca ti-am dat destule de lucru deocamdata spor la treaba :) si mersi!
 
 DONE
+- Photo and video slideshow
+- bug index.html
 20120217
 - fav ico
 - text alb
